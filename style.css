@@ -178,7 +178,8 @@ span{
 .shop-section{
     display:flex;
     justify-content: space-evenly;
-    background-color: rgba(226, 231, 230,0.8)
+    /* background-color: rgba(226, 231, 230,0.8) */
+        background-image: linear-gradient(rgba(214, 129, 255),rgba(226, 231, 230, 0.8));
 }
 .box{
     height: 390px;
@@ -212,12 +213,16 @@ span{
 .shop-section2{
     display:flex;
     justify-content: space-evenly;
-    background-color: rgba(226, 231, 230,0.8)
+    background-color: rgba(226, 231, 230, 0.8);
+   
+   
+    
 }
 .box{
     height: 390px;
     width: 22%;
     background-color: white;
+    /* background-image: linear-gradient(green , yellow); */
     /* position: relative;
     bottom: 80px; */
   padding: 20px 0px 15px;
